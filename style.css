@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/hero-new');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Hero New;
+}
+
+#page-1{
+
+    background-color: #1f2937;
+    font-family: hero;
+    height: 55vh;
+}
+
+#navbar{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    margin-left: 30%;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+nav>h1{
+    margin-top: 1%;
+    margin-left: 15%;
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
+#page-content{
+    display: flex;
+    color: white;
+    margin-left: 15%;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+#caption{
+    font-size: 36px;
+    color: white;
+}
+
+#text{
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#button{
+    background-color: #3882F6;
+    border: solid #3882F6 3px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    margin-top: 2%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#photos{
+
+    border: solid grey;
+    background-color: grey;
+    width: 500px;
+    height: 200px;
+    margin-right: 25%;
+    border-radius: 2px;
+}
+
+#page-2{
+    
+    background-color: white;
+}
